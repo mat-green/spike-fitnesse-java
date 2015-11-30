@@ -1,0 +1,7 @@
+!1 Java Prototype Test Suites
+
+!2 Tech Stuff That Should Be Abstracted Away From Suites And Tests
+!define TEST_SYSTEM {slim}
+!path /Users/newedgeengineer/Workspace/spike-fitnesse-java/bin
+
+!contents -R2 -g -p -f -h

@@ -1,0 +1,2 @@
+!1 Triva Game Test Suite
+!contents -R2 -g -p -f -h

@@ -1,0 +1,18 @@
+!1 Once the game has started, players cannot be added or removed.
+
+|com.neewedgeengineering.prototype.fixtures.AddRemovePlayerFixture|
+|playerName|addPlayer?|countPlayers?|
+|Al|true|1|
+|Bertha|true|2|
+
+|com.neewedgeengineering.prototype.fixtures.GameTurnFixture|
+|roll|player?|gameHasStarted?|
+|6|Al|true|
+
+|com.neewedgeengineering.prototype.fixtures.AddRemovePlayerFixture|
+|playerName|addPlayer?|countPlayers?|
+|Joe|false|2|
+
+|com.neewedgeengineering.prototype.fixtures.AddRemovePlayerFixture|
+|playerName|removePlayer?|countPlayers?|
+|Al|false|2|

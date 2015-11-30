@@ -1,0 +1,6 @@
+!1 You can add players to the game, and you can ask the game how many players are playing.
+
+|com.neewedgeengineering.prototype.fixtures.AddRemovePlayerFixture|
+|playerName|addPlayer?|countPlayers?|
+|Al|true|1|
+|Bertha|true|2|
